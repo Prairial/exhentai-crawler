@@ -7,3 +7,5 @@ Usage:
 4. Call "python spider.py https://exhentai.org/your_link" for the first time, then the crawler will begin to download images and can be stopped at any time.
 5. Call "python spider.py", the crawler will continue downloading the unfinished galleries. Downloaded galleries can be found in the same path.
 6. Do not rename folders in the path of spider.py.
+
+随便写的一个E绅士爬虫。其实我觉得比如下galgame的CG集，直接爬取的速度还不如用网站提供的种子。
