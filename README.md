@@ -8,4 +8,5 @@ Usage:
 5. Call "python spider.py", the crawler will continue downloading the unfinished galleries. Downloaded galleries can be found in the same path.
 6. Do not rename folders in the path of spider.py.
 
-随便写的一个E绅士爬虫。其实我觉得比如下galgame的CG集，直接爬取的速度还不如用网站提供的种子。
+随便写的一个E绅士爬虫。其实我觉得比如下galgame的CG集，直接爬取的速度还不如用网站提供的种子
+爬虫频率可以自己调，我设定的是2秒一张图。爬快了会被关小黑屋，自己衡量吧
