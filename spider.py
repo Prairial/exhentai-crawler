@@ -159,8 +159,7 @@ def begin_download(galleryid, ghashid, totalimgcount = 0, startimgid = 1):
       
     pageid += 1
   if title:
-    title = title.text.replace(' - ExHentai.org','')
-    title = ''.join(re.compile('''[A-Za-z0-9 \-()\[\]]''').findall(title))
+    title = title.text.replace(u' - ExHentai.org',u'')
     os.rename(dirname, title)
   else: 
     os.rename(dirname, dirname + "-done")
